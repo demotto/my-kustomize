@@ -39,6 +39,7 @@ curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases |\
   grep /kustomize/v |\
   sort | tail -n 1
 
+echo $where
 exit
 
 curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases |\
